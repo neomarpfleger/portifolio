@@ -1,0 +1,22 @@
+
+body{
+    background-color: black;
+}
+
+header{
+    height: 690px;
+}
+
+img{
+    width: 60px;
+    margin: 0 1rem;
+    padding-top: 3rem;
+}
+.rodape{
+    height: 15rem;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 0.9rem;
+    border: solid 1px rgb(156, 144, 144);
+    background-color: rgb(100, 44, 44);
+}
