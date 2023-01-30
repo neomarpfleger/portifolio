@@ -1,10 +1,11 @@
 
 body{
     background-color: black;
+    color:aqua;
 }
 
 header{
-    height: 690px;
+    height: 200px;
 }
 
 img{
@@ -12,11 +13,24 @@ img{
     margin: 0 1rem;
     padding-top: 3rem;
 }
+
+h1{
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    background-image: radial-gradient(rgb(122, 10, 10), rgb(16, 0, 0),black);
+}
+
+.contato{
+    text-align: center;
+    text-decoration: underline;
+    height: 20rem;
+}
+
 .rodape{
     height: 15rem;
     text-align: center;
-    color: antiquewhite;
     font-size: 0.9rem;
-    border: solid 1px rgb(156, 144, 144);
-    background-color: rgb(100, 44, 44);
+    background-image: linear-gradient(to top, black, rgb(122, 10, 10));
 }
