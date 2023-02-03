@@ -22,20 +22,39 @@ h1{
     /*background-image: radial-gradient(rgb(122, 10, 10), rgb(16, 0, 0),black);*/
 }
 
+.quemSouEu{
+    display: flex;
+    width: 70%;
+    margin: 5rem auto;
+    gap: 0.5rem;
+    contain: content;
+}
+
+.minhaFoto{
+    border: solid 1px aqua;
+    width: 50%;
+    height: 20rem;
+}
+
+.descricao{
+    border: solid 1px aqua;
+    width: 50%;
+    height: 20rem;
+}
+
 .portifoli{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 46% 46%;
     max-width: 70%;
     margin: 5rem auto;
     text-align: center;
     line-height: 20rem;
-    gap: 5rem;
+    gap: 3.5rem;
     
 }
 
 .item{
     border: solid 1px aqua;
-   
     height: 20rem;
 }
 
