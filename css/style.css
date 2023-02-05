@@ -1,11 +1,16 @@
 
 body{
     background-color: black;
+    background: linear-gradient(to left,black, rgb(122, 10, 10), black);
     color:aqua;
 }
 
 header{
     height: 200px;
+}
+
+.banner{
+    width: 100%;
 }
 
 img{
@@ -26,20 +31,40 @@ h1{
     display: flex;
     width: 70%;
     margin: 5rem auto;
-    gap: 0.5rem;
+    gap: 2rem;
     contain: content;
 }
 
 .minhaFoto{
-    border: solid 1px aqua;
-    width: 50%;
-    height: 20rem;
+    contain: content;
+    border: solid 0.7rem aqua;
+    border-radius: 20px;
+    width: 25%;
+    height: 29rem;
+}
+
+.fotoNeomar{
+    width: 22rem;
+    padding: 0;
+    margin: 0;
 }
 
 .descricao{
     border: solid 1px aqua;
-    width: 50%;
+    width: 60%;
     height: 20rem;
+}
+
+.conhecimento{
+    display: flex;
+    gap: 2rem;
+    margin:5rem 41rem;
+}
+
+.linguagem{
+    border: solid 1px aqua;
+    width: 10rem;
+    height: 10rem;
 }
 
 .portifoli{
@@ -65,7 +90,7 @@ h1{
 }
 
 .contato-img{
-    margin: 4rem 4rem 13rem;
+    margin: 4rem 1rem 13rem;
     padding: 0;
 }
 
@@ -73,5 +98,5 @@ h1{
     height: 15rem;
     text-align: center;
     font-size: 0.9rem;
-    background-image: linear-gradient(to top, black, rgb(122, 10, 10),black);
+    /*background-image: linear-gradient(to top, black, rgb(122, 10, 10),black);*/
 }
