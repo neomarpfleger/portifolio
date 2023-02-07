@@ -15,7 +15,6 @@ header{
 
 img{
     width: 60px;
-    margin: 0 1rem;
     padding-top: 3rem;
 }
 
@@ -39,7 +38,7 @@ h1{
     contain: content;
     border: solid 0.7rem aqua;
     border-radius: 20px;
-    width: 25%;
+    width: 30%;
 }
 
 .fotoNeomar{
@@ -55,17 +54,18 @@ h1{
 }
 
 .conhecimento{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
+    display: flex;
+    flex-direction: row;
     gap: 2rem;
     margin:5rem auto;
+    padding-left: 19rem;
 }
 
 .linguagem{
     border: solid 1px aqua;
     width: 10rem;
     height: 10rem;
-    margin: 5rem auto;
+    margin: 5rem 2rem;
 }
 
 .portifoli{
