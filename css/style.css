@@ -40,11 +40,10 @@ h1{
     border: solid 0.7rem aqua;
     border-radius: 20px;
     width: 25%;
-    height: 29rem;
 }
 
 .fotoNeomar{
-    width: 22rem;
+    width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -56,15 +55,17 @@ h1{
 }
 
 .conhecimento{
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
     gap: 2rem;
-    margin:5rem 41rem;
+    margin:5rem auto;
 }
 
 .linguagem{
     border: solid 1px aqua;
     width: 10rem;
     height: 10rem;
+    margin: 5rem auto;
 }
 
 .portifoli{
