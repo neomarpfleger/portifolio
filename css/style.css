@@ -6,20 +6,34 @@ body{
 }
 
 header{
-    height: 3rem;
-    background-color: rgb(95, 11, 91);
-
+    width: 100vw;
+    background: linear-gradient(to right,black, rgb(77, 10, 73));
+    position: fixed;
+    
 }
 
 .cabecalho{
     display: flex;
+    height: 5rem;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
+}
+
+#nomeTop{
+    font-size: 2rem;
+    margin: 0;
 }
 
 .menu{
     display: flex;
     gap: 2rem;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.display{
+    list-style: none;
+    cursor: pointer;
 }
 
 .banner{
@@ -28,14 +42,6 @@ header{
 
 img{
     width: 60px;
-    padding-top: 3rem;
-}
-
-h1{
-    width: 500px;
-    height: 50px;
-    margin: 0 auto;
-    /*background-image: radial-gradient(rgb(122, 10, 10), rgb(16, 0, 0),black);*/
 }
 
 .quemSouEu{
