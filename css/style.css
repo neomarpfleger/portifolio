@@ -8,25 +8,24 @@ body{
 header{
     width: 100vw;
     background: linear-gradient(to right,black, rgb(77, 10, 73));
-    position: fixed;
-    
 }
 
 .cabecalho{
     display: flex;
-    height: 5rem;
+    height: 4rem;
     justify-content: space-around;
     align-items:center;
+    flex-wrap: wrap;
 }
 
 #nomeTop{
     font-size: 2rem;
-    margin: 0;
+    margin-bottom: 0.1rem;
 }
 
 .menu{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     font-size: 1.2rem;
     margin: 0;
 }
@@ -38,25 +37,24 @@ header{
 
 .banner{
     width: 100%;
+    height: 90vh;
 }
 
-img{
-    width: 60px;
+h2{
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 5rem 0 1rem;
 }
 
 .quemSouEu{
     display: flex;
     width: 70%;
-    margin: 5rem auto;
+    margin: 3rem auto;
     gap: 2rem;
-    contain: content;
     flex-wrap: wrap;
 }
 
 .minhaFoto{
-    contain: content;
-    border: solid 0.7rem aqua;
-    border-radius: 20px;
     width: 30%;
 }
 
@@ -64,12 +62,16 @@ img{
     width: 100%;
     padding: 0;
     margin: 0;
+    cursor: pointer;
 }
 
 .descricao{
-    border: solid 1px aqua;
     width: 60%;
-    height: 20rem;
+}
+
+.texto{
+    font-size: 1.5rem;
+    text-indent: 1;
 }
 
 .conhecimento{
@@ -82,10 +84,20 @@ img{
 }
 
 .linguagem{
-    border: solid 1px aqua;
+    display: flex;
     width: 10rem;
     height: 10rem;
-    margin: 5rem 2rem;
+    margin: 3rem 2rem;
+    contain: content;
+    align-items: center;
+}
+
+.imgLinguagem{
+    width: 80%;
+}
+
+.imgCss{
+    width: 100%;
 }
 
 .portifoli{
@@ -111,6 +123,7 @@ img{
 }
 
 .contato-img{
+    width: 3rem;
     margin: 4rem 1rem 13rem;
     padding: 0;
 }
