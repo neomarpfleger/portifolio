@@ -118,19 +118,28 @@ h2{
 
 .contato{
     text-align: center;
-    text-decoration: underline;
     height: 15rem;
 }
 
 .contato-img{
     width: 3rem;
-    margin: 4rem 1rem 13rem;
+    margin: 4rem 1rem 1rem;
     padding: 0;
 }
 
+.contato-img1{
+    width: 4rem;
+    padding: 0 0.5rem 0.5rem 0;
+
+}
+
 .rodape{
-    height: 15rem;
+    height: 5rem;
     text-align: center;
     font-size: 0.9rem;
     /*background-image: linear-gradient(to top, black, rgb(122, 10, 10),black);*/
+}
+
+.textoRodape{
+    margin-top: 5rem;
 }
