@@ -7,7 +7,7 @@ body{
 
 header{
     width: 100vw;
-    background: linear-gradient(to right,black, rgb(77, 10, 73));
+    background: linear-gradient(to right,black, rgb(122, 29, 116));
 }
 
 .cabecalho{
@@ -52,26 +52,21 @@ header{
     visibility: visible;
 }
 
-#secaoBanner{
-    width: 100vw;
-    height: 100hw;
+#banner{
+    width: 100%;
+    height: 90%;
     position: absolute;
 }
 
-#banner{
-    width: 100vw;
-    height: 90vh;
-}
-
-#ajusteTexto{
-    display: flex;
-    }
-
 #texto{
-    border: solid 1px aqua;
-    width: 300px;
-    height: 50px;
+    position: relative;
+    font-size: 3rem;
     text-align: center;
+    width: 500px;
+    height: 50px;
+    margin: 21rem auto;
+    color: white;
+    
 }
 
 h2{
@@ -81,11 +76,17 @@ h2{
 }
 
 .quemSouEu{
+
     display: flex;
+    position: relative;
     width: 70%;
-    margin: 3rem auto;
+    margin: 4rem auto 0;
     gap: 2rem;
     flex-wrap: wrap;
+}
+
+.textoQuemSouEu{
+    font-size: 1.5rem;
 }
 
 .minhaFoto{
@@ -105,9 +106,7 @@ h2{
 
 .texto{
     font-size: 1.5rem;
-    text-indent: 1;
 }
-
 .conhecimento{
     display: flex;
     flex-direction: row;
