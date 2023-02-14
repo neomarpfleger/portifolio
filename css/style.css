@@ -52,8 +52,10 @@ header{
     visibility: visible;
 }
 
-.secaoBanner{
-
+#secaoBanner{
+    width: 100vw;
+    height: 100hw;
+    position: absolute;
 }
 
 #banner{
