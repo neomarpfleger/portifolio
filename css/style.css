@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family:'Quick';
+    src: url("Quicksand_Bold")format();
+}
 body{
     background-color: black;
     background: linear-gradient(to left,black, rgb(122, 10, 10), black);
@@ -60,6 +63,7 @@ header{
 
 #texto{
     position: relative;
+    font-family: 'Quick';
     font-size: 3rem;
     text-align: center;
     width: 500px;
