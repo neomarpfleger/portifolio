@@ -1,11 +1,9 @@
-@font-face {
-    font-family:'Quick';
-    src: url("Quicksand_Bold")format();
-}
+
 body{
     background-color: black;
     background: linear-gradient(to left,black, rgb(122, 10, 10), black);
     color:aqua;
+    contain: content;
 }
 
 header{
@@ -38,39 +36,20 @@ header{
     cursor: pointer;
 }
 
-.setaTop{
-    display: flex;
-    justify-content:center;
-    position: fixed;
-    width: 6rem;
-    margin: 35% 0 0 90%;
-    cursor: pointer;
-    opacity: 0;
-    visibility: hidden;
-    transition: all .5s ease;
-}
-
-.setaTop.ativo{
-    opacity: 1;
-    visibility: visible;
-}
-
 #banner{
-    width: 100%;
-    height: 90%;
-    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
 }
 
 #texto{
     position: relative;
-    font-family: 'Quick';
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
-    width: 500px;
-    height: 50px;
-    margin: 21rem auto;
-    color: white;
-    
+    width: 40rem;
+    height: 5rem;
+    margin: -25% auto 0;
+    color: white; 
 }
 
 h2{
@@ -79,10 +58,12 @@ h2{
     margin: 5rem 0 1rem;
 }
 
-.quemSouEu{
+#tituloQuemSouEu{
+    margin-top: 33%;
+}
 
+.quemSouEu{
     display: flex;
-    position: relative;
     width: 70%;
     margin: 4rem auto 0;
     gap: 2rem;
@@ -95,6 +76,7 @@ h2{
 
 .minhaFoto{
     width: 30%;
+    object-fit: cover
 }
 
 .fotoNeomar{
@@ -179,4 +161,21 @@ h2{
 
 .textoRodape{
     margin-top: 5rem;
+}
+
+/*==========seta topo==========*/
+.setaTop{
+    display: flex;
+    justify-content:center;
+    position: relative;
+    width: 6rem;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease;
+}
+
+.setaTop.ativo{
+    opacity: 1;
+    visibility: visible;
 }
