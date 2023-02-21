@@ -1,3 +1,8 @@
+@font-face {
+    font-family:'cavair';
+    src: url('') format(truetype);
+    font-weight: normal;
+}
 
 html{
     scroll-behavior: smooth;
@@ -49,6 +54,7 @@ header{
 }
 
 #texto{
+    font-family:monospace;
     position: relative;
     font-size: 4rem;
     text-align: center;
