@@ -48,6 +48,7 @@ header{
 }
 
 #banner{
+    position: relative;
     width: 100vw;
     height: 90vh;
     object-fit: cover;
@@ -55,13 +56,29 @@ header{
 
 #texto{
     font-family:monospace;
-    position: relative;
-    font-size: 4rem;
+    position: absolute;
+    font-size: 3rem;
     text-align: center;
-    width: 40rem;
+    width: 45rem;
     height: 5rem;
-    margin: -25% auto 0;
-    color: white; 
+    transform: translate(50%, -250%);
+    color: rgb(255, 255, 255); 
+}
+
+/*==========seta topo==========*/
+.setaTop{
+    display: flex;
+    justify-content:center;
+    width: 6rem;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease;
+}
+
+.setaTop.ativo{
+    opacity: 1;
+    visibility: visible;
 }
 
 h2{
@@ -71,7 +88,7 @@ h2{
 }
 
 #tituloQuemSouEu{
-    margin-top: 33%;
+    margin-top: 4rem;
 }
 
 #quemSouEu{
@@ -173,21 +190,4 @@ h2{
 
 .textoRodape{
     margin-top: 5rem;
-}
-
-/*==========seta topo==========*/
-.setaTop{
-    display: flex;
-    justify-content:center;
-    position: relative;
-    width: 6rem;
-    cursor: pointer;
-    opacity: 0;
-    visibility: hidden;
-    transition: all .5s ease;
-}
-
-.setaTop.ativo{
-    opacity: 1;
-    visibility: visible;
 }

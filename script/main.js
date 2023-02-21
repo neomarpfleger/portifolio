@@ -15,7 +15,7 @@ function backTop(){
 /*texto do banner*/
 
 const texto = document.querySelector("#texto");
-const textoDigitado = "Oi meu nome é Neomar";
+const textoDigitado = "Olá me chamo Neomar. Precisa de um programador! Como posso lhe ajudar?";
 const intervalo = 300;
 
 function showTexto (texto, textoDigitado, intervalo){
