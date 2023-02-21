@@ -1,4 +1,8 @@
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: black;
     background: linear-gradient(to left,black, rgb(122, 10, 10), black);
@@ -31,9 +35,11 @@ header{
     margin: 0;
 }
 
-.display{
+.display a{
     list-style: none;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 #banner{
@@ -62,7 +68,7 @@ h2{
     margin-top: 33%;
 }
 
-.quemSouEu{
+#quemSouEu{
     display: flex;
     width: 70%;
     margin: 4rem auto 0;
@@ -135,7 +141,7 @@ h2{
     height: 20rem;
 }
 
-.contato{
+#contato{
     text-align: center;
     height: 15rem;
 }
