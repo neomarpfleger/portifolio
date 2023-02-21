@@ -16,7 +16,7 @@ body{
 }
 
 header{
-    width: 100vw;
+    width: 100%;
     background: linear-gradient(to right,black, rgb(122, 29, 116));
 }
 
@@ -61,15 +61,25 @@ header{
     text-align: center;
     width: 45rem;
     height: 5rem;
-    transform: translate(50%, -250%);
+    transform: translate(50%, -270%);
     color: rgb(255, 255, 255); 
 }
 
+.caixaBanner{
+    width: 100vw;
+    height: 90vh;
+    contain: content;
+}
+
 /*==========seta topo==========*/
+
+.seta{
+    position: fixed;
+}
 .setaTop{
-    display: flex;
-    justify-content:center;
-    width: 6rem;
+    bottom: 0;
+    right: 5%;
+    width: 10%;
     cursor: pointer;
     opacity: 0;
     visibility: hidden;
