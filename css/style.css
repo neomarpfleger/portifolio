@@ -12,7 +12,6 @@ body{
     background-color: black;
     background: linear-gradient(to left,black, rgb(122, 10, 10), black);
     color:aqua;
-    contain: content;
 }
 
 header{
@@ -73,10 +72,8 @@ header{
 
 /*==========seta topo==========*/
 
-.seta{
-    position: fixed;
-}
 .setaTop{
+    display: inline-block;
     bottom: 0;
     right: 5%;
     width: 10%;
