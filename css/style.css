@@ -61,7 +61,7 @@ header{
     width: 45rem;
     height: 5rem;
     transform: translate(50%, -270%);
-    color: rgb(255, 255, 255); 
+    color: rgb(236, 221, 221); 
 }
 
 .caixaBanner{
@@ -73,17 +73,20 @@ header{
 /*==========seta topo==========*/
 
 .setaTop{
+    position: fixed;
     display: inline-block;
-    bottom: 0;
+    bottom: 5%;
     right: 5%;
-    width: 10%;
+    width: 7%;
     cursor: pointer;
     opacity: 0;
     visibility: hidden;
     transition: all .5s ease;
+    transform: rotate(275deg);
 }
 
 .setaTop.ativo{
+    position: fixed;
     opacity: 1;
     visibility: visible;
 }
@@ -129,21 +132,31 @@ h2{
 .texto{
     font-size: 1.5rem;
 }
+
+/*==========Conhecimento==========*/
+
 .conhecimento{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 3rem;
     margin:5rem auto;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.linguagem{
+#linguagemcss{
     display: flex;
     width: 10rem;
     height: 10rem;
     margin: 3rem 2rem;
-    contain: content;
+    align-items: center;
+}
+
+#linguagem{
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    margin: 3rem 2rem;
     align-items: center;
 }
 
@@ -153,6 +166,14 @@ h2{
 
 .imgCss{
     width: 100%;
+}
+
+#linguagem :hover{
+    width: 10rem;
+}
+
+#linguagemcss :hover{
+    width: 12rem;
 }
 
 .portifoli{
@@ -174,6 +195,10 @@ h2{
 #contato{
     text-align: center;
     height: 15rem;
+}
+
+#contato :hover{
+    width: 4.5rem;
 }
 
 .contato-img{
