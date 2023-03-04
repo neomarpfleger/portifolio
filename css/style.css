@@ -78,7 +78,6 @@ header{
 
 .setaTop{
     position: fixed;
-    display: inline-block;
     bottom: 5%;
     right: 5%;
     width: 5%;
