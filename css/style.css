@@ -9,8 +9,7 @@ html{
 }
 
 body{
-    background-color: black;
-    background: linear-gradient(to left,black, rgb(122, 10, 10), black);
+    background: linear-gradient(to top,rgb(7, 7, 7),rgb(49, 15, 49), rgb(100, 14, 100), rgb(87, 21, 83));
     color:aqua;
 }
 
@@ -44,6 +43,11 @@ header{
     cursor: pointer;
     text-decoration: none;
     color: white;
+}
+
+.display :hover{
+    color: aqua;
+    font-size: 1.4rem;
 }
 
 #banner{
