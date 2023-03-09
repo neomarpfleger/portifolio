@@ -1,7 +1,21 @@
 
+const btnTopo= document.querySelector(".setaTop")
+
+window.onscroll = function() {
+  mostrarBotaoTopo()
+};
+
+function mostrarBotaoTopo() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    btnTopo.style.display = "block";
+  } else {
+    btnTopo.style.display = "none";
+  }
+}
+
 window.addEventListener("scroll", function() {
     var scroll = this.document.querySelector(".setaTop")
-    scroll.classList.toggle("ativo", window.scrollY > 450)
+    scroll.classList.toggle("ativo", window.scrollY > 200)
 })
 
 function backTop(){
@@ -10,7 +24,6 @@ function backTop(){
         behavior:"smooth"
     })
 }
-
 
 /*texto do banner*/
 

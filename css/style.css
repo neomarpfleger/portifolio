@@ -75,6 +75,7 @@ header{
 /*==========seta topo==========*/
 
 .setaTop{
+    display: none;
     position: fixed;
     bottom: 5%;
     right: 5%;
@@ -186,7 +187,6 @@ h2{
     text-align: center;
     line-height: 20rem;
     gap: 3.5rem;
-    
 }
 
 .item{
