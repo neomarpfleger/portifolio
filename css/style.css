@@ -147,6 +147,15 @@ h2{
     flex-wrap: wrap;
 }
 
+.caixaIcone{
+    border: solid 1px white;
+}
+
+.icone{
+    font-size: 5rem;
+    
+}
+
 #linguagemcss{
     display: flex;
     width: 10rem;
@@ -199,9 +208,9 @@ h2{
     height: 15rem;
 }
 
-/*#contato :hover{
+#contato :hover{
     width: 4.5rem;
-}*/
+}
 
 .contato-img{
     width: 3rem;
