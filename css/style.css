@@ -141,52 +141,31 @@ h2{
 .conhecimento{
     display: flex;
     flex-direction: row;
-    gap: 3rem;
+    gap: 5rem;
     margin:5rem auto;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .caixaIcone{
-    border: solid 1px white;
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    border: solid 3px white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    font-size: 1.4rem;
+    cursor: pointer;
 }
 
 .icone{
-    font-size: 5rem;
-    
+    color: black;
+
 }
 
-#linguagemcss{
-    display: flex;
-    width: 10rem;
-    height: 10rem;
-    margin: 3rem 2rem;
-    align-items: center;
-}
 
-#linguagem{
-    display: flex;
-    width: 10rem;
-    height: 10rem;
-    margin: 3rem 2rem;
-    align-items: center;
-}
-
-.imgLinguagem{
-    width: 80%;
-}
-
-.imgCss{
-    width: 100%;
-}
-
-#linguagem :hover{
-    width: 10rem;
-}
-
-#linguagemcss :hover{
-    width: 12rem;
-}
 
 .portifoli{
     display: grid;
