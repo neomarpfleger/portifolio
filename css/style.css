@@ -1,16 +1,23 @@
 
+:root{
+    --dark-color: #191919;
+    --medio-color:#2D4263;
+    --fraco-color:#C84B31;
+    --claro-color:#ECDBBA;
+}
+
 html{
     scroll-behavior: smooth;
 }
 
 body{
-    background: linear-gradient(to top,rgb(7, 7, 7),rgb(49, 15, 49), rgb(100, 14, 100), rgb(87, 21, 83));
-    color:aqua;
+    background: linear-gradient(to top,var(--dark-color),var(--claro-color));
+    color: var(--claro-color);
 }
 
 header{
     width: 100%;
-    background: linear-gradient(to right,black, rgb(87, 21, 83));
+    background: linear-gradient(to right,var(--dark-color), var(--fraco-color));
 }
 
 .cabecalho{
@@ -20,10 +27,11 @@ header{
     align-items:center;
     flex-wrap: wrap;
     height: 7rem;
-    border-bottom: solid 2px aqua;
+    border-bottom: solid 2px var(--claro-color);
 }
 
 #nomeTop{
+    color: var(--claro-color);
     font-size: 2rem;
     margin-bottom: 0.1rem;
 }
@@ -39,11 +47,11 @@ header{
     list-style: none;
     cursor: pointer;
     text-decoration: none;
-    color: white;
+    color: var(--claro-color);
 }
 
 .display :hover{
-    color: aqua;
+    color: var(--medio-color);
     font-size: 1.4rem;
 }
 
@@ -61,7 +69,7 @@ header{
     width: 80rem;
     /*transform: translate(50%, 70%);
     position: absolute;*/
-    color: rgb(236, 221, 221); 
+    color: var(--medio-color); 
 }
 
 .caixaBanner{
@@ -151,17 +159,17 @@ h2{
     display: flex;
     width: 10rem;
     height: 10rem;
-    border: solid 3px white;
+    border: solid 1px var(--claro-color);
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    background-color: brown;
+    background-color: var(--fraco-color);
     font-size: 1.4rem;
     cursor: pointer;
 }
 
 .icone{
-    color: black;
+    color: var(--claro-color);
 
 }
 
