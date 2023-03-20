@@ -124,9 +124,32 @@ h2{
     font-size: 1.5rem;
 }
 
+#triangulo{
+    display: flex;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 0px solid red;
+    border-left: 50px solid red;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid red;
+}
+
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-top: 100px solid red;
+    border-left: 100px solid transparent;
+    border-right: 50px solid red;
+    border-bottom: 0px solid red;
+}
+  
+
 .minhaFoto{
     width: 30%;
-    object-fit: cover
+    object-fit: cover;
 }
 
 .fotoNeomar{
@@ -134,6 +157,11 @@ h2{
     padding: 0;
     margin: 0;
     cursor: pointer;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 70%;
+    box-shadow: 10px 50px 100px -10px black;
 }
 
 .descricao{
