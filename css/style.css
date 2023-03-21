@@ -205,12 +205,12 @@ h2{
 
 .portifoli{
     display: grid;
-    grid-template-columns: 46% 46%;
+    grid-template-columns: 47% 47%;
     max-width: 70%;
     margin: 5rem auto;
     text-align: center;
     line-height: 20rem;
-    gap: 3.5rem;
+    gap: 5.2rem;
 }
 
 .item{
