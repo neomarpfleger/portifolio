@@ -1,5 +1,11 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Playfair+Display&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Playfair+Display&display=swap');
+
 :root{
+    --font-familyText: 'Cormorant', serif;
+    --font-family: 'Lalezar', cursive, serif;
     --dark-color: #191919;
     --medio-color:#2D4263;
     --fraco-color:#C84B31;
@@ -34,6 +40,7 @@ header{
     color: var(--claro-color);
     font-size: 2rem;
     margin-bottom: 0.1rem;
+    font-family: var(--font-family);
 }
 
 .menu{
@@ -48,6 +55,7 @@ header{
     cursor: pointer;
     text-decoration: none;
     color: var(--claro-color);
+    font-family: var(--font-family);
 }
 
 .display :hover{
@@ -106,6 +114,7 @@ h2{
     font-size: 2.2rem;
     text-align: center;
     margin: 5rem 0 1rem;
+    font-family: var(--font-family);
 }
 
 #tituloQuemSouEu{
@@ -122,15 +131,20 @@ h2{
 
 .textoQuemSouEu{
     font-size: 1.5rem;
+    font-family: var(--font-familyText);
+    color: #191919;
 }
 
 #triangulo{
     display: flex;
+    width: 100vw;
+    height: 1.5rem;
+    margin: 0 0 5rem 0;
+    contain:content ;
 }
 
 .triangle {
-    width: 0;
-    height: 0;
+    width: 50%;
     border-top: 0px solid red;
     border-left: 50px solid red;
     border-right: 100px solid transparent;
@@ -138,8 +152,7 @@ h2{
 }
 
 .triangle1 {
-    width: 0;
-    height: 0;
+    width: 47%;
     border-top: 100px solid red;
     border-left: 100px solid transparent;
     border-right: 50px solid red;
@@ -161,7 +174,7 @@ h2{
     border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%;
     border-top-left-radius: 70%;
-    box-shadow: 10px 50px 100px -10px black;
+    box-shadow: 10px 50px 50px -10px black;
 }
 
 .descricao{
@@ -205,7 +218,7 @@ h2{
 
 .portifoli{
     display: grid;
-    grid-template-columns: 47% 47%;
+    grid-template-columns: 46% 46%;
     max-width: 70%;
     margin: 5rem auto;
     text-align: center;
