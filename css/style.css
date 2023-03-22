@@ -117,6 +117,8 @@ h2{
     font-family: var(--font-family);
 }
 
+/*==========Quem Ssou Eu==========*/
+
 #tituloQuemSouEu{
     margin-top: 4rem;
 }
@@ -159,7 +161,6 @@ h2{
     border-bottom: 0px solid red;
 }
   
-
 .minhaFoto{
     width: 30%;
     object-fit: cover;
@@ -214,8 +215,6 @@ h2{
 
 }
 
-
-
 .portifoli{
     display: grid;
     grid-template-columns: 46% 46%;
@@ -249,7 +248,6 @@ h2{
 .contato-img1{
     width: 4rem;
     padding: 0 0.5rem 0.5rem 0;
-
 }
 
 .rodape{
@@ -260,5 +258,106 @@ h2{
 }
 
 .textoRodape{
-    margin-top: 0rem;
+    margin-bottom: 0px;
+}
+
+
+/*==========Aplicações Mobile==========*/
+
+@media screen and (max-width: 480px) {
+    .menu{
+
+    }
+
+    #texto{
+        font-size: 1.2rem;
+    }
+
+    #triangulo{
+        height: 0.8rem;
+
+    }
+
+    .triangle {
+        width: 70%;
+        border-top: 0px solid red;
+        border-left: 50px solid red;
+        border-right: 75px solid transparent;
+        border-bottom: 100px solid red;
+    }
+
+    .triangle1 {
+        width: 30%;
+        border-top: 100px solid red;
+        border-left: 75px solid transparent;
+        border-right: 25px solid red;
+        border-bottom: 0px solid red;
+    }
+
+    .descricao{
+        width: 100%;
+    }
+
+    .textoQuemSouEu{
+        font-size: 1rem;
+    }
+
+    .minhaFoto{
+        width: auto;
+    }
+
+    .conhecimento{
+        gap: 2.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caixaIcone{
+        width: 7rem;
+        height: 7rem;
+        font-size: 1.1rem;
+    }
+
+    .item{
+        height: 10rem;
+    }
+
+    .portifoli{
+        display: grid;
+        grid-template-columns: 100%;
+        max-width: 70%;
+        margin: 5rem auto;
+        text-align: center;
+        line-height: 10rem;
+        gap: 2.5rem;
+    }
+
+    #contato{
+        height: 7rem;
+        margin: 1rem auto 2rem;
+    }
+
+    #contato :hover{
+        width: 2.9rem;
+    }
+    
+    .contato-img{
+        width: 1.5rem;
+        margin: 4rem 1rem 1rem;
+        padding: 0;
+    }
+    
+    .contato-img1{
+        width: 2.2rem;
+        padding: 0 0.5rem 0.5rem 0;
+    }
+
+    footer{
+        margin-top: 2px;
+    }
+
+    .textoRodape{
+        font-size: 0.6rem;
+        margin-bottom: 0px;
+    }
 }
