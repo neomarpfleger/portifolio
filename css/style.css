@@ -6,10 +6,10 @@
 :root{
     --font-familyText: 'Cormorant', serif;
     --font-family: 'Lalezar', cursive, serif;
-    --dark-color: #191919;
-    --medio-color:#2D4263;
-    --fraco-color:#C84B31;
-    --claro-color:#ECDBBA;
+    --dark-color: #2A0944;
+    --medio-color:#3B185F;
+    --fraco-color:#A12568;
+    --claro-color:#FEC260;
 }
 
 html{
@@ -17,13 +17,13 @@ html{
 }
 
 body{
-    background: linear-gradient(to top,var(--dark-color),var(--claro-color));
+    background: linear-gradient(to left,var(--dark-color),var(--claro-color));
     color: var(--claro-color);
 }
 
 header{
     width: 100%;
-    background: linear-gradient(to right,var(--dark-color), var(--fraco-color));
+    background: linear-gradient(to left,var(--dark-color), var(--fraco-color));
 }
 
 .cabecalho{
@@ -115,6 +115,7 @@ h2{
     text-align: center;
     margin: 5rem 0 1rem;
     font-family: var(--font-family);
+    color: var(--claro-color);
 }
 
 /*==========Quem Ssou Eu==========*/
@@ -147,18 +148,18 @@ h2{
 
 .triangle {
     width: 50%;
-    border-top: 0px solid red;
-    border-left: 50px solid red;
+    border-top: 0px solid var(--fraco-color);
+    border-left: 50px solid var(--fraco-color);
     border-right: 100px solid transparent;
-    border-bottom: 100px solid red;
+    border-bottom: 100px solid var(--fraco-color);
 }
 
 .triangle1 {
     width: 47%;
-    border-top: 100px solid red;
+    border-top: 100px solid var(--fraco-color);
     border-left: 100px solid transparent;
-    border-right: 50px solid red;
-    border-bottom: 0px solid red;
+    border-right: 50px solid var(--fraco-color);
+    border-bottom: 0px solid var(--fraco-color);
 }
   
 .minhaFoto{
@@ -226,7 +227,7 @@ h2{
 }
 
 .item{
-    border: solid 1px aqua;
+    border: solid 1px var(--fraco-color);
     height: 20rem;
 }
 
@@ -280,18 +281,18 @@ h2{
 
     .triangle {
         width: 70%;
-        border-top: 0px solid red;
-        border-left: 50px solid red;
+        border-top: 0px solid var(--fraco-color);
+        border-left: 50px solid var(--fraco-color);
         border-right: 75px solid transparent;
-        border-bottom: 100px solid red;
+        border-bottom: 100px solid var(--fraco-color);
     }
 
     .triangle1 {
         width: 30%;
-        border-top: 100px solid red;
+        border-top: 100px solid var(--fraco-color);
         border-left: 75px solid transparent;
-        border-right: 25px solid red;
-        border-bottom: 0px solid red;
+        border-right: 25px solid var(--fraco-color);
+        border-bottom: 0px solid var(--fraco-color);
     }
 
     .descricao{
