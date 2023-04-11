@@ -32,17 +32,17 @@ const textoDigitado = "A criatividade é a inteligência se divertindo.";
 const intervalo = 200;
 
 function showTexto (texto, textoDigitado, intervalo){
-    const char = textoDigitado.split("").reverse();
-    const typer = setInterval(()=>{
-        if(!char.length){
-            return clearInterval(typer);
-        }
+  const char = textoDigitado.split("").reverse();
+  const typer = setInterval(()=>{
+    if(!char.length){
+      return clearInterval(typer);
+    }
 
-        const next = char.pop();
+    const next = char.pop();
 
-        texto.innerHTML += next;
+    texto.innerHTML += next;
 
-    }, intervalo);
+  }, intervalo);
 }
 
 showTexto(texto, textoDigitado, intervalo);
