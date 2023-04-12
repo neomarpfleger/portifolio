@@ -96,16 +96,16 @@ header{
 /*==========seta topo==========*/
 
 .setaTop{
-    display: none;
     position: fixed;
-    bottom: 5%;
+    font-size: 4rem;
+    color: black;
+    bottom: 10%;
     right: 5%;
     width: 5%;
     cursor: pointer;
     opacity: 0;
     visibility: hidden;
-    transition: all .10s ease;
-    transform: rotate(270deg);
+    transition: all 2s ease;
     z-index: 2;
 }
 
@@ -253,19 +253,16 @@ h2{
     height: 15rem;
 }
 
-#contato :hover{
-    width: 4.5rem;
-}
-
-.contato-img{
+.redes{
+    font-size: 4rem;
+    color: black;
     width: 3rem;
-    margin: 4rem 1rem 1rem;
+    margin: 3rem 2rem 1rem;
     padding: 0;
 }
 
-.contato-img1{
-    width: 4rem;
-    padding: 0 0.5rem 0.5rem 0;
+.redes:hover{
+    transform: translateY(-1rem)
 }
 
 .rodape{
@@ -283,9 +280,6 @@ h2{
 /*==========Aplicações Mobile==========*/
 
 @media screen and (max-width: 480px) {
-    .menu{
-
-    }
 
     .setaTop{
         width: 2.5rem;

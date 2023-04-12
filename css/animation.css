@@ -1,7 +1,7 @@
 @keyframes has-shown {
     from{
         opacity: 0;
-        transform: translatey(60px);
+        transform: translatey(-60px);
     }
 
     to{
@@ -13,3 +13,17 @@
 .has-shown {
     animation: has-shown 3.5s forwards;
 }
+
+/*@keyframes redes {
+    from{
+         transform: translateY(-0.7rem);
+    }
+
+    to{
+        
+    }
+}
+
+i:hover{
+    animation: redes 3s;
+}*/

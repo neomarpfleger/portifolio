@@ -19,10 +19,10 @@ window.addEventListener("scroll", function() {
 })
 
 function backTop(){
-    window.scrollTo({
-        top: 0,
-        behavior:"smooth"
-    })
+  window.scrollTo({
+    top: 0,
+    behavior:"smooth"
+  })
 }
 
 /*texto do banner*/
