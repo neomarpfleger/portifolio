@@ -56,6 +56,7 @@ header{
 }
 
 .display a{
+    position: sticky;
     list-style: none;
     cursor: pointer;
     text-decoration: none;
@@ -96,6 +97,7 @@ header{
 /*==========seta topo==========*/
 
 .setaTop{
+    display: none;
     position: fixed;
     font-size: 4rem;
     color: black;
@@ -282,11 +284,12 @@ h2{
 @media screen and (max-width: 480px) {
 
     .setaTop{
-        width: 2.5rem;
+        margin: 1rem 0.7rem;
+        font-size: 2rem;
     }
 
     #texto{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     #triangulo{
@@ -336,7 +339,13 @@ h2{
     }
 
     .item{
+        max-width: 100%;
         height: 10rem;
+        margin: 0 auto;
+    }
+
+    .futurosProjetos{
+        font-size: 1rem;
     }
 
     .portifoli{
@@ -348,25 +357,27 @@ h2{
         line-height: 10rem;
         gap: 2.5rem;
     }
+    .faleComigo{
+        margin: 3rem auto 1rem;
+    }
 
     #contato{
-        height: 7rem;
-        margin: 1rem auto 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        margin: 0rem auto 3rem;
     }
 
-    #contato :hover{
-        width: 2.9rem;
-    }
-    
-    .contato-img{
-        width: 1.5rem;
-        margin: 2rem 1rem 1rem;
-        padding: 0;
-    }
-    
-    .contato-img1{
-        width: 2.2rem;
-        padding: 0 0.5rem 0.5rem 0;
+    .redes{
+        contain: content;
+        width: 2rem;
+        height: 2rem;
+        font-size: 2rem;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+       
     }
 
     footer{
