@@ -4,7 +4,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Playfair+Display&display=swap');
 
 :root{
-    --font-familyText: 'Cormorant', serif;
     --font-family: 'Lalezar', cursive, serif;
     --dark-color: #071E3D;
     --medio-color:#1F4287;
@@ -100,7 +99,7 @@ header{
     display: none;
     position: fixed;
     font-size: 4rem;
-    color: black;
+    color: var(--fraco-color);
     bottom: 10%;
     right: 5%;
     width: 5%;
@@ -225,6 +224,14 @@ h2{
 
 .icone{
     color: var(--claro-color);
+    font-size: 5rem;
+}
+
+.nomeIcone{
+    font-family: var(--font-family);
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.3rem;
 }
 
 .portifoli{
@@ -284,8 +291,8 @@ h2{
 @media screen and (max-width: 480px) {
 
     .setaTop{
-        margin: 1rem 0.7rem;
-        font-size: 2rem;
+        margin: 1.5rem 1rem;
+        font-size: 3rem;
     }
 
     #texto{
@@ -295,7 +302,6 @@ h2{
     #triangulo{
         width: 100%;
         height: 0.8rem;
-
     }
 
     .triangle {
