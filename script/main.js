@@ -29,7 +29,7 @@ function backTop(){
 
 const texto = document.querySelector("#texto");
 const textoDigitado = "A criatividade é a inteligência se divertindo.";
-const intervalo = 200;
+const intervalo = 150;
 
 function showTexto (texto, textoDigitado, intervalo){
   const char = textoDigitado.split("").reverse();
