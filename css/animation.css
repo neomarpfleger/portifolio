@@ -14,16 +14,23 @@
     animation: has-shown 3.5s forwards;
 }
 
-/*@keyframes redes {
-    from{
-         transform: translateY(-0.7rem);
-    }
 
-    to{
-        
-    }
+/*Animação da foto*/
+
+.imagem-movimento {
+    width: 200px;
+    height: auto;
+    animation: mover 2s ease-in-out infinite;
 }
 
-i:hover{
-    animation: redes 3s;
-}*/
+@keyframes mover {
+    0% {
+    transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-1rem);
+    }
+    100% {
+    transform: translateY(0);
+    }
+}
